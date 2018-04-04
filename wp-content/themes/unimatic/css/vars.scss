@@ -1,0 +1,122 @@
+$grigioscuro:#2e2e2e;
+
+//
+@mixin select() {
+    appearance: none;
+       -moz-appearance: none;
+    -webkit-appearance: none;
+            border-radius: 0;
+       -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+            box-sizing: border-box;
+       -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    outline: none;
+    border:none;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #000;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #000;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #000;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #000;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'DecimaPro';
+    src: url('fonts/DecimaPro.eot');
+    src: url('fonts/DecimaPro.eot?#iefix') format('embedded-opentype'),
+        url('fonts/DecimaPro.woff2') format('woff2'),
+        url('fonts/DecimaPro.woff') format('woff'),
+        url('fonts/DecimaPro.ttf') format('truetype'),
+        url('fonts/DecimaPro.svg#DecimaPro') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'DecimaProBold';
+//     src: url('fonts/DecimaPro-Bold.eot');
+//     src: url('fonts/DecimaPro-Bold.eot?#iefix') format('embedded-opentype'),
+//         url('fonts/DecimaPro-Bold.woff2') format('woff2'),
+//         url('fonts/DecimaPro-Bold.woff') format('woff'),
+//         url('fonts/DecimaPro-Bold.ttf') format('truetype'),
+//         url('fonts/DecimaPro-Bold.svg#DecimaPro-Bold') format('svg');
+//     font-weight: bold;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'DecimaMonoProLt';
+//     src: url('fonts/DecimaMonoProLt.eot');
+//     src: url('fonts/DecimaMonoProLt.eot?#iefix') format('embedded-opentype'),
+//         url('fonts/DecimaMonoProLt.woff2') format('woff2'),
+//         url('fonts/DecimaMonoProLt.woff') format('woff'),
+//         url('fonts/DecimaMonoProLt.ttf') format('truetype'),
+//         url('fonts/DecimaMonoProLt.svg#DecimaMonoProLt') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'AkzidenzGroteskNextMed';
+//     src: url('fonts/AkzidGrtskNext-Med.eot');
+//     src: url('fonts/AkzidGrtskNext-Med.eot?#iefix') format('embedded-opentype'),
+//         url('fonts/AkzidGrtskNext-Med.woff2') format('woff2'),
+//         url('fonts/AkzidGrtskNext-Med.woff') format('woff'),
+//         url('fonts/AkzidGrtskNext-Med.ttf') format('truetype'),
+//         url('fonts/AkzidGrtskNext-Med.svg#AkzidGrtskNext-Med') format('svg');
+//     font-weight: 500;
+//     font-style: normal;
+// }
+
+@font-face {
+    font-family: 'AkzidenzGroteskNext';
+    src: url('fonts/AkzidGrtskNext-Regular.eot');
+    src: url('fonts/AkzidGrtskNext-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AkzidGrtskNext-Regular.woff2') format('woff2'),
+        url('fonts/AkzidGrtskNext-Regular.woff') format('woff'),
+        url('fonts/AkzidGrtskNext-Regular.ttf') format('truetype'),
+        url('fonts/AkzidGrtskNext-Regular.svg#AkzidGrtskNext-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'AkzidenzGroteskNextLt';
+//     src: url('fonts/AkzidGrtskNext-Light.eot');
+//     src: url('fonts/AkzidGrtskNext-Light.eot?#iefix') format('embedded-opentype'),
+//         url('fonts/AkzidGrtskNext-Light.woff2') format('woff2'),
+//         url('fonts/AkzidGrtskNext-Light.woff') format('woff'),
+//         url('fonts/AkzidGrtskNext-Light.ttf') format('truetype'),
+//         url('fonts/AkzidGrtskNext-Light.svg#AkzidGrtskNext-Light') format('svg');
+//     font-weight: 300;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'AkzidenzGroteskNextBold';
+//     src: url('fonts/AkzidGrtskNext-Bold.eot');
+//     src: url('fonts/AkzidGrtskNext-Bold.eot?#iefix') format('embedded-opentype'),
+//         url('fonts/AkzidGrtskNext-Bold.woff2') format('woff2'),
+//         url('fonts/AkzidGrtskNext-Bold.woff') format('woff'),
+//         url('fonts/AkzidGrtskNext-Bold.ttf') format('truetype'),
+//         url('fonts/AkzidGrtskNext-Bold.svg#AkzidGrtskNext-Bold') format('svg');
+//     font-weight: bold;
+//     font-style: normal;
+// }

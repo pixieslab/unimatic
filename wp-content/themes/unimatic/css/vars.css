@@ -1,0 +1,36 @@
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #000; }
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #000;
+  opacity: 1; }
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #000;
+  opacity: 1; }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000; }
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #000; }
+
+@font-face {
+  font-family: 'DecimaPro';
+  src: url("fonts/DecimaPro.eot");
+  src: url("fonts/DecimaPro.eot?#iefix") format("embedded-opentype"), url("fonts/DecimaPro.woff2") format("woff2"), url("fonts/DecimaPro.woff") format("woff"), url("fonts/DecimaPro.ttf") format("truetype"), url("fonts/DecimaPro.svg#DecimaPro") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'AkzidenzGroteskNext';
+  src: url("fonts/AkzidGrtskNext-Regular.eot");
+  src: url("fonts/AkzidGrtskNext-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/AkzidGrtskNext-Regular.woff2") format("woff2"), url("fonts/AkzidGrtskNext-Regular.woff") format("woff"), url("fonts/AkzidGrtskNext-Regular.ttf") format("truetype"), url("fonts/AkzidGrtskNext-Regular.svg#AkzidGrtskNext-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*# sourceMappingURL=vars.css.map */
